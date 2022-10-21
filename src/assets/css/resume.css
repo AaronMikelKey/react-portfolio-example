@@ -1,0 +1,20 @@
+h2 {
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 1.8em;
+}
+
+.prof-list, .prof-list li {
+	margin-bottom: 10px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	display: block;
+	list-style: disc;
+	font-size: 1.1em;
+	text-align: center;
+}
+
+
+.resume-image {
+	float: right;
+	margin-right: 10vw;
+}
