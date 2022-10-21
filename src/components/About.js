@@ -1,9 +1,12 @@
 import React from 'react'
+import aaronImage from '../images/Aaron-01.png'
+import '../assets/css/about.css'
 
 const About = () => {
 	return (
 		<div className="about-div">
 			<h1>About Me</h1>
+			<img src={aaronImage}></img>
 			<p className="about-p">
 				My name is Aaron Key and I'm a full stack developer from South Carolina.
 				I started studying HTML in middle school so my friends and I could edit
