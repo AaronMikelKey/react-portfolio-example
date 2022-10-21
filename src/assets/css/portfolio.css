@@ -13,6 +13,10 @@ img {
 
 .header-p {
 	grid-area: header-p !important;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+	margin: 0;
 }
 
 .p1{

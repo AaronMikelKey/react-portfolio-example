@@ -6,7 +6,7 @@ const About = () => {
 	return (
 		<div className="about-div">
 			<h1>About Me</h1>
-			<img src={aaronImage}></img>
+			<img className="about-image" src={aaronImage}></img>
 			<p className="about-p">
 				My name is Aaron Key and I'm a full stack developer from South Carolina.
 				I started studying HTML in middle school so my friends and I could edit

@@ -7,10 +7,10 @@ import '../assets/css/portfolio.css'
 const Portfolio = () => {
 	return (
 		<div className="container-p">
-			<header className="header-p">
+			<div className="header-p">
 				<h1>Projects</h1>
 				<p>Here's a few of the projects I've made.</p>
-			</header>
+			</div>
 			<a href="https://jandkpaintsandpix.com" target="_blank" className="p1">
 				<h2>J&amp;K Paints and Pixels</h2>
 				<img src={jandkscreenshot}></img>
