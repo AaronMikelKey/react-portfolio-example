@@ -40,7 +40,9 @@ const Contact = () => {
 					></textarea>
 				</div>
 				<div>
-					<button htmlFor="submit">Submit</button>
+					<button htmlFor="submit">
+						Submit <i class="fa-solid fa-paper-plane"></i>
+					</button>
 				</div>
 			</form>
 		</div>
