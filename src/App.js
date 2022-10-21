@@ -5,6 +5,10 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Portfolio from './components/Portfolio'
 import Resume from './components/Resume'
+import Footer from './components/Footer'
+import '@fortawesome/fontawesome-free/js/solid'
+import '@fortawesome/fontawesome-free/js/fontawesome'
+import '@fortawesome/fontawesome-free/js/brands'
 
 const App = () => {
 	const [currentTab, setCurrentTab] = useState('About')
@@ -27,7 +31,7 @@ const App = () => {
 		<div className="App">
 			<Nav current={currentTab} setCurrent={setCurrentTab} />
 			<main>{currentPage}</main>
-			<footer></footer>
+			<Footer />
 		</div>
 	)
 }
