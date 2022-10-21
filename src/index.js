@@ -3,7 +3,7 @@ import * as ReactDOM from 'react-dom/client'
 import './index.css'
 import App from './App'
 
-const container = document.getElementById('app')
+const container = document.getElementById('body')
 
 const root = ReactDOM.createRoot(container)
 

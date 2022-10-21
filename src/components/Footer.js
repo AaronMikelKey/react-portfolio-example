@@ -1,8 +1,9 @@
 import React from 'react'
+import '../assets/css/footer.css'
 
 const Footer = () => {
 	return (
-		<div>
+		<footer>
 			<div className="contact-grid">
 				<a
 					href="https://github.com/AaronMikelKey"
@@ -21,11 +22,11 @@ const Footer = () => {
 					<span> LinkedIn</span>
 				</a>
 				<a href="https://AaronKey.com" target="_blank" className="a3">
-					<i class="fa fa-solid fa-code-compare"></i>
+					<i class="fa fa-solid fa-globe"></i>
 					<span> Website</span>
 				</a>
 			</div>
-		</div>
+		</footer>
 	)
 }
 
