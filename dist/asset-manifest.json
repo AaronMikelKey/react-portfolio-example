@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-example/static/css/main.269e63a2.css",
+    "main.js": "/react-portfolio-example/static/js/main.eced7d01.js",
+    "static/media/Aaron-01.png": "/react-portfolio-example/static/media/Aaron-01.c0302315ba06513283ba.png",
+    "static/media/team-builder.png": "/react-portfolio-example/static/media/team-builder.21bc6e7b1d5ad67a70c2.png",
+    "static/media/JandkScreenshot.png": "/react-portfolio-example/static/media/JandkScreenshot.2b2747794e8ab7d232f1.png",
+    "static/media/resume-image.png": "/react-portfolio-example/static/media/resume-image.96ac770ced9de48eee0e.png",
+    "static/media/twitchSubsScreenshot.png": "/react-portfolio-example/static/media/twitchSubsScreenshot.6d6ee49617ab9a133931.png",
+    "static/media/AaronMikelKey_WebDeveloper.pdf": "/react-portfolio-example/static/media/AaronMikelKey_WebDeveloper.ce5e967927eb73ecd6dc.pdf",
+    "index.html": "/react-portfolio-example/index.html",
+    "main.269e63a2.css.map": "/react-portfolio-example/static/css/main.269e63a2.css.map",
+    "main.eced7d01.js.map": "/react-portfolio-example/static/js/main.eced7d01.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.269e63a2.css",
+    "static/js/main.eced7d01.js"
+  ]
+}
