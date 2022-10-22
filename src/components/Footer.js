@@ -22,7 +22,7 @@ const Footer = () => {
 					<span> LinkedIn</span>
 				</a>
 				<a href="https://AaronKey.com" target="_blank" className="a3">
-					<i class="fa fa-solid fa-globe"></i>
+					<i className="fa fa-solid fa-globe"></i>
 					<span> Website</span>
 				</a>
 			</div>
