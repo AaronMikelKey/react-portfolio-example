@@ -1,0 +1,33 @@
+header {
+	display: flex;
+	min-height: 80px;
+	line-height: 80px;
+	background-color: #BF8080;
+}
+
+.header-span {
+	min-width: 17vw;
+	font-size: 3em;
+	text-align: center;
+}
+
+ul, li {
+	list-style: none;
+}
+
+ul {
+	display: flex;
+}
+
+li {
+	margin: auto;
+}
+
+.nav {
+	width: 100vw;
+}
+
+.active a, .active i {
+	color: #DBEDED;
+	font-size: 2em;
+}

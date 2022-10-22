@@ -1,0 +1,61 @@
+form {
+	margin: auto;
+	padding-top: 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	width: 80vw;
+	text-align: center;
+}
+
+input, textarea {
+	margin-top: 20px;
+  padding-right: 30px;
+	border-radius: 7px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	display: inline-block;
+}
+
+input, button {
+	height: 30px;
+	width: 50%;
+}
+
+button {
+	background-color: rgb(14, 216, 14);
+	border: 2px solid black;
+	box-shadow: none;
+	border-radius: 7px;
+	height: 40px;
+	font-size: 20px;
+	font-weight: bolder;
+	color: white;
+}
+
+button:hover {
+	background-color: rgb(114, 216, 114);
+	border: 3px solid black;
+	color: black
+}
+
+label {
+	display: block;
+}
+
+input + span::before {
+  position: absolute;
+  right: -20px;
+  top: 5px;
+}
+
+.invalid + span::after {
+  position: absolute;
+  content: "✖";
+  padding-left: 5px;
+	color: red;
+}
+
+.invalid {
+	border: 2px solid red;
+}

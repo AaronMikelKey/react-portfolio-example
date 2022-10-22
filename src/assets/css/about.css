@@ -1,0 +1,13 @@
+.about-image {
+	float: right;
+	max-width: 20vw;
+	border-radius: 50%;
+}
+
+.about-div {
+	margin-left: 5vw;
+	margin-right: 5vw;
+	font-size:1.5em;
+	font-weight: bold;
+	font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,49 @@
+img {
+	max-width: 450px;
+}
+
+.container-p {
+	display: grid;
+	grid-template-columns: 10px minmax(140px, 1fr) minmax(140px, 1fr) 10px;
+	grid-template-rows: 50px 250px minmax(500px, 600px) minmax(500px, 600px) 500px 110px ;
+	gap: 20px 20px;
+	grid-template-areas: ". . . ."". header-p header-p ."". p1 p2 ."". p3 p4 ."". p5 p6 .""footer footer footer footer";
+	text-align: center;
+}
+
+.header-p {
+	grid-area: header-p !important;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+	margin: 0;
+}
+
+.p1{
+	grid-area: p1 !important}
+.p2{
+	grid-area: p2 !important}
+.p3{
+	grid-area: p3 !important}
+.p4{
+	grid-area: p4 !important}
+.p5{
+	grid-area: p5 !important;
+}
+.p6 {
+	grid-area: p6 !important;
+}
+.p1, .p2, .p3, .p4, .p5, .p6 {
+	height: 100% !important;
+	text-decoration: none;
+	color: inherit}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.link {
+	text-decoration: underline;
+	color: blue
+}
