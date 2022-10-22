@@ -9,7 +9,7 @@
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1",
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build"
+		"deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/AaronMikelKey/react-portfolio-example/issues"
   },
-  "homepage": "https://AaronMikelKey.github.io/react-portfolio-example",
+  "homepage": "https://aaronmikelkey.github.io/react-portfolio-example/",
   "devDependencies": {
     "@babel/core": "^7.19.6",
     "@babel/preset-env": "^7.19.4",
