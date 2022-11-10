@@ -26,9 +26,6 @@ const App = () => {
 		case 'Resume':
 			currentPage = <Resume />
 			break
-		default:
-			currentPage = <About />
-			break
 	}
 	return (
 		<div className="App">
