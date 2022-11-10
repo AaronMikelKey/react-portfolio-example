@@ -1,10 +1,7 @@
 import jandkscreenshot from '../images/JandkScreenshot.png'
 import twitchSubsScreenshot from '../images/twitchSubsScreenshot.png'
 import teamBuilder from '../images/team-builder.png'
-<<<<<<< HEAD
-import sunrise from '../images/personalSunrise'
-=======
->>>>>>> main
+import sunrise from '../images/personalSunrise.png'
 
 const projects = [
 	{
