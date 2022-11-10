@@ -38,7 +38,6 @@ const projects = [
 	},
 	{
 		number: 'p4',
-<<<<<<< HEAD
 		link: 'https://personal-sunrise-test.herokuapp.com',
 		title: 'Rental Property Reservation and Control App',
 		imgLink: sunrise,
@@ -46,16 +45,6 @@ const projects = [
 		website for his rental property.  This allows users to request a reservation, and allows owners to confirm those reservations and add them to a calendar.
 		<a
 			href="https://github.com/EricksonVIK/Personal_Sunrise_NC"
-=======
-		link: 'https://d-cubed.herokuapp.com/',
-		title: 'Lawn Care Scheduling App',
-		imgLink:
-			'https://raw.githubusercontent.com/AaronMikelKey/d-cubed-lawncare/main/public/Screenshot1.png',
-		description: `This was a group project for a gentleman who wanted to create a
-		website for his growing business.
-		<a
-			href="https://github.com/AaronMikelKey/d-cubed-lawncare"
->>>>>>> main
 			className="link"
 		>
 			You can view the repo and contributors here.
