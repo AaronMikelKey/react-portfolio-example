@@ -33,12 +33,7 @@ const Nav = (props) => {
 						id="About"
 						className="active"
 						onClick={() => {
-<<<<<<< HEAD
-							removeActive()
-							props.setCurrent('About')
-=======
 							removeActive(), props.setCurrent('About')
->>>>>>> main
 						}}
 					>
 						<a href="#About">
@@ -49,12 +44,7 @@ const Nav = (props) => {
 					<li
 						id="Portfolio"
 						onClick={() => {
-<<<<<<< HEAD
-							removeActive()
-							props.setCurrent('Portfolio')
-=======
 							removeActive(), props.setCurrent('Portfolio')
->>>>>>> main
 						}}
 					>
 						<a href="#Portfolio">
@@ -65,12 +55,7 @@ const Nav = (props) => {
 					<li
 						id="Contact"
 						onClick={() => {
-<<<<<<< HEAD
-							removeActive()
-							props.setCurrent('Contact')
-=======
 							removeActive(), props.setCurrent('Contact')
->>>>>>> main
 						}}
 					>
 						<a href="#Contact">
@@ -81,12 +66,7 @@ const Nav = (props) => {
 					<li
 						id="Resume"
 						onClick={() => {
-<<<<<<< HEAD
-							removeActive()
-							props.setCurrent('Resume')
-=======
 							removeActive(), props.setCurrent('Resume')
->>>>>>> main
 						}}
 					>
 						<a href="#Resume">
